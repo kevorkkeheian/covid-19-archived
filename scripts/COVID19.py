@@ -65,7 +65,7 @@ COVID19_ByCountry = ConfirmedCases_ByCountry.merge(RecoveredCases_ByCountry, on 
 
 
 
-COVID19_ByDate.to_csv('./COVID-19/COVID19_ByDate.csv', sep=',')
-COVID19_ByCountry.to_csv('./COVID-19/COVID19_ByCountry.csv',  sep=',')
+COVID19_ByDate.to_csv('./datasets/COVID19_ByDate.csv', sep=',')
+COVID19_ByCountry.to_csv('./datasets/COVID19_ByCountry.csv',  sep=',')
 
 
